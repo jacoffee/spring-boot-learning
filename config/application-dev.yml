@@ -1,0 +1,5 @@
+elasticsearch:
+    nodes: localhost:9200
+    username: xxxx
+    password: xxxx
+    maxResultWindow: 3

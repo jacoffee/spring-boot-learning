@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: ${ENV}
+  http:
+    encoding:
+      charset: UTF-8
+  jackson:
+    serialization:
+      write-dates-as-timestamps: true
+    default-property-inclusion: non_null
+    time-zone: Asia/Shanghai
+
+server:
+  port: 8088
